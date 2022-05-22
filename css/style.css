@@ -1,9 +1,78 @@
 :root {
     --color-primary: #fda94f;
+    --color-primary-light: #fd9e38;
     --color-secondary: #4d4d4d;
 }
 
 body {
-    background-color: #222;
     font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER */
+.header{
+    background-color: transparent;
+}
+
+/* LOGO */
+.logo {
+    color: var(--color-primary);
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+/* MENU */
+.menu-link {
+    color: var(--color-secondary);
+    margin-bottom: 1rem;
+}
+
+.menu-link:hover {
+    color: var(--color-primary);
+}
+
+/* HERO */
+.hero {
+    min-height: 100vh;
+    background: url(../assets/showcase.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bg-opacity {
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.container-hero{
+    min-height: 100vh;
+}
+
+.hero-content{
+    gap: 1rem;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+}
+
+.hero-description {
+    line-height: 2;
+}
+
+.btn-hero {
+    background-color: var(--color-primary);
+    border-radius: 0;
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+
+.btn-hero:hover {
+    background-color: var(--color-primary-light);
 }
