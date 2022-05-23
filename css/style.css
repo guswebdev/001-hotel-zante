@@ -2,6 +2,7 @@
     --color-primary: #fda94f;
     --color-primary-light: #fd9e38;
     --color-secondary: #4d4d4d;
+    --color-secondary-light: #6b6b6b;
 }
 
 body {
@@ -69,10 +70,26 @@ a {
 .btn-hero {
     background-color: var(--color-primary);
     border-radius: 0;
-    padding: 1rem;
+    padding: .5rem 1rem;
     font-size: 1.1rem;
 }
 
 .btn-hero:hover {
     background-color: var(--color-primary-light);
+}
+
+/* RESERVATION */
+.reservation-title{
+    margin-bottom: 1rem;
+}
+
+.btn-reservation{
+    background-color: var(--color-secondary);
+    border-radius: 0;
+    padding: .5rem 1rem;
+}
+
+
+.btn-reservation:hover {
+    background-color: var(--color-secondary-light);
 }
