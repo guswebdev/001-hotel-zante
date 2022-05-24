@@ -26,7 +26,7 @@
 
 <body>
     <!-- HEADER -->
-    <header class="header">
+    <header id="inicio" class="header">
         <div class="container">
             <div class="row">
                 <!-- logo -->
@@ -37,12 +37,12 @@
                 </div>
                 <!-- menu -->
                 <div class="col-12 col-lg-8 d-flex flex-column flex-lg-row justify-content-lg-end align-items-center">
-                    <a href="#" class="mb-lg-0 ps-lg-4 menu-link lead">Inicio</a>
-                    <a href="#" class="mb-lg-0 ps-lg-4 menu-link lead">Reserva</a>
-                    <a href="#" class="mb-lg-0 ps-lg-4 menu-link lead">Habitaciones</a>
-                    <a href="#" class="mb-lg-0 ps-lg-4 menu-link lead">Nosotros</a>
-                    <a href="#" class="mb-lg-0 ps-lg-4 menu-link lead">Testimonios</a>
-                    <a href="#" class="mb-lg-0 ps-lg-4 menu-link lead">Contacto</a>
+                    <a href="#inicio" class="mb-lg-0 ps-lg-4 menu-link lead">Inicio</a>
+                    <a href="#habitaciones" class="mb-lg-0 ps-lg-4 menu-link lead">Habitaciones</a>
+                    <a href="#reserva" class="mb-lg-0 ps-lg-4 menu-link lead">Reserva</a>
+                    <a href="#nosotros" class="mb-lg-0 ps-lg-4 menu-link lead">Nosotros</a>
+                    <a href="#testimonios" class="mb-lg-0 ps-lg-4 menu-link lead">Testimonios</a>
+                    <a href="#contacto" class="mb-lg-0 ps-lg-4 menu-link lead">Contacto</a>
                 </div>
             </div>
         </div>
@@ -82,7 +82,7 @@
             footer
         -->
 
-        <section class="features">
+        <section id="habitaciones" class="features">
             <div class="container-fluid">
                 <div class="row features-rooms">
                     <!-- Habitacion 1-->
@@ -116,7 +116,7 @@
             </div>
         </section>
 
-        <section class="reservation py-5">
+        <section id="reserva" class="reservation py-5">
             <div class="container">
                 <div class="row justify-content-center">
                     <!-- Description -->
@@ -131,7 +131,7 @@
             </div>
         </section>
 
-        <section class="about">
+        <section id="nosotros" class="about">
             <div class="container">
                 <div class="row py-5 align-items-center">
                     <!-- Texto -->
@@ -154,51 +154,85 @@
             </div>
         </section>
 
-        <section class="testimonials">
+        <section id="testimonios" class="testimonials">
             <div class="container">
                 <div class="row justify-content-center align-items-center text-white py-5 min-vh-100">
-                  
-                        <div class="row justify-content-lg-center">
 
-                            <!-- Titulo -->
-                            <div class="col-12">
-                                <h2 class="fs-1 mb-5 text-center">Lo Que Dicen Nuestros Invitados</h2>
-                            </div>
-                            <!-- Testimonio 1 -->
-                            <article class="col-12 col-lg-8 mb-3 rounded testimonial-card">
-                                <div class="row py-3">
-                                    <!-- Imagen -->
-                                    <div class="col-12 text-center">
-                                        <img src="assets/testimonial-1.jpg" alt="" class="img-thumbnail rounded-circle img-testimonials">
-                                    </div>
-                                    <!-- Texto -->
-                                    <div class="col-12">
-                                        <p class="lead text-center">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, porro? Quidem quibusdam fugiat quo iusto!
-                                        </p>
-                                    </div>
-                                </div>
-                            </article>
-                            <!-- Testimonio 2 -->
-                            <article class="col-12 col-lg-8 rounded testimonial-card">
-                                <div class="row py-3">
-                                    <!-- Imagen -->
-                                    <div class="col-12 text-center">
-                                        <img src="assets/testimonial-2.jpg" alt="" class="img-thumbnail rounded-circle img-testimonials">
-                                    </div>
-                                    <!-- Texto -->
-                                    <div class="col-12">
-                                        <p class="lead text-center">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, porro? Quidem quibusdam fugiat quo iusto!
-                                        </p>
-                                    </div>
-                                </div>
-                            </article>
+                    <div class="row justify-content-lg-center">
 
+                        <!-- Titulo -->
+                        <div class="col-12">
+                            <h2 class="fs-1 mb-5 text-center">Lo Que Dicen Nuestros Invitados</h2>
                         </div>
+                        <!-- Testimonio 1 -->
+                        <article class="col-12 col-lg-8 mb-3 rounded testimonial-card">
+                            <div class="row py-3">
+                                <!-- Imagen -->
+                                <div class="col-12 text-center">
+                                    <img src="assets/testimonial-1.jpg" alt=""
+                                        class="img-thumbnail rounded-circle img-testimonials">
+                                </div>
+                                <!-- Texto -->
+                                <div class="col-12">
+                                    <p class="lead text-center">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, porro?
+                                        Quidem quibusdam fugiat quo iusto!
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- Testimonio 2 -->
+                        <article class="col-12 col-lg-8 rounded testimonial-card">
+                            <div class="row py-3">
+                                <!-- Imagen -->
+                                <div class="col-12 text-center">
+                                    <img src="assets/testimonial-2.jpg" alt=""
+                                        class="img-thumbnail rounded-circle img-testimonials">
+                                </div>
+                                <!-- Texto -->
+                                <div class="col-12">
+                                    <p class="lead text-center">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, porro?
+                                        Quidem quibusdam fugiat quo iusto!
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
 
-                  
+                    </div>
+
+
                 </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact py-5">
+            <div class="container">
+                <form class="row justify-content-lg-center">
+                    <!-- Titulo -->
+                    <div class="col-12 col-lg-8 mb-3">
+                        <h2 class="fs-1 text-center">Contacto</h2>
+                    </div>
+                    <!-- Formulario -->
+                    <div class="col-12 col-lg-8 mb-3">
+                        <label for="name" class="form-label">Nombre</label>
+                        <input type="text" id="name" class="form-control" placeholder="Gustavo Miño"
+                            aria-label="First name">
+                    </div>
+                    <div class="col-12 col-lg-8 mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" class="form-control" placeholder="gusemma23@gmail.com"
+                            aria-label="Email">
+                    </div>
+                    <div class="col-12 col-lg-8 mb-3">
+                        <label for="message" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="message" rows="5"
+                            placeholder="Ingrese su mensaje"></textarea>
+                    </div>
+                    <div class="col-auto col-lg-8">
+                        <button type="submit" class="btn btn-contact rounded-0 text-white mb-3">Enviar Mensaje</button>
+                    </div>
+                </form>
             </div>
         </section>
 
