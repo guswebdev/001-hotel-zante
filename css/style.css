@@ -1,157 +1,168 @@
 :root {
-    --color-primary: #fda94f;
-    --color-primary-opacity: #fda94f8e;
-    --color-primary-dark: #fd9e38;
-    --color-secondary: #4d4d4d;
-    --color-secondary-light: #6b6b6b;
-    --color-secondary-opacity: #4d4d4d80;
+  --color-primary: #fda94f;
+  --color-primary-light: #fdd1a1;
+  --color-primary-opacity: #fda94f8e;
+  --color-primary-dark: #fd9e38;
+  --color-secondary: #4d4d4d;
+  --color-secondary-light: #6b6b6b;
+  --color-secondary-opacity: #4d4d4d80;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* HEADER */
-.header{
-    background-color: transparent;
+.header {
+  background-color: transparent;
 }
 
 /* LOGO */
 .logo {
-    color: var(--color-primary);
-    text-align: center;
-    font-weight: 700;
-    font-size: 2.5rem;
+  color: var(--color-primary);
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.5rem;
 }
 
 /* MENU */
 .menu-link {
-    color: var(--color-secondary);
-    margin-bottom: 1rem;
+  color: var(--color-secondary);
+  margin-bottom: 1rem;
 }
 
 .menu-link:hover {
-    color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 /* HERO */
 .hero {
-    min-height: 100vh;
-    background: url(../assets/showcase.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+  min-height: 100vh;
+  background: url(../assets/showcase.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .bg-opacity {
-    min-height: inherit;
-    background-color: rgba(0, 0, 0, .5);
+  min-height: inherit;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.container-hero{
-    min-height: 100vh;
+.container-hero {
+  min-height: 100vh;
 }
 
-.hero-content{
-    gap: 1rem;
+.hero-content {
+  gap: 1rem;
 }
 
 .hero-title {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 .hero-description {
-    line-height: 2;
+  line-height: 2;
 }
 
 .btn-hero {
-    background-color: var(--color-primary);
-    border-radius: 0;
-    padding: .5rem 1rem;
-    font-size: 1.1rem;
+  background-color: var(--color-primary);
+  border-radius: 0;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
 }
 
 .btn-hero:hover {
-    background-color: var(--color-primary-dark);
+  background-color: var(--color-primary-dark);
 }
 
 /* RESERVATION */
-.reservation-title{
-    margin-bottom: 1rem;
+.reservation-title {
+  margin-bottom: 1rem;
 }
 
-.btn-reservation{
-    background-color: var(--color-secondary);
-    border-radius: 0;
-    padding: .5rem 1rem;
+.btn-reservation {
+  background-color: var(--color-secondary);
+  border-radius: 0;
+  padding: 0.5rem 1rem;
 }
-
 
 .btn-reservation:hover {
-    background-color: var(--color-secondary-light);
+  background-color: var(--color-secondary-light);
 }
 
 /* FEATURES */
-.features-bg{
-    
-    min-height: 300px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.features-bg {
+  min-height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.features-rooms .features-bg:nth-child(1){
-    background-image: url(../assets/feature-1.jpg)
+.features-rooms .features-bg:nth-child(1) {
+  background-image: url(../assets/feature-1.jpg);
 }
-.features-rooms .features-bg:nth-child(2){
-    background-image: url(../assets/feature-2.jpg)
+.features-rooms .features-bg:nth-child(2) {
+  background-image: url(../assets/feature-2.jpg);
 }
-.features-rooms .features-bg:nth-child(3){
-    background-image: url(../assets/feature-3.jpg)
+.features-rooms .features-bg:nth-child(3) {
+  background-image: url(../assets/feature-3.jpg);
 }
 
 /* ABOUT */
 .about {
-    background-color: var(--color-primary);
+  background-color: var(--color-primary);
 }
 
 /* TESTIMONIALS */
 .testimonials {
-    min-height: 100vh;
-    background: url(../assets/testimonials.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+  min-height: 100vh;
+  background: url(../assets/testimonials.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .testimonial-card {
-    background-color: var(--color-secondary-opacity);
+  background-color: var(--color-secondary-opacity);
 }
 
 .img-testimonials {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 /* CONTACTO */
 
-.btn-contact{
-    background-color: var(--color-secondary);
-    padding: .5rem 1rem;
+.btn-contact {
+  background-color: var(--color-secondary);
+  padding: 0.5rem 1rem;
 }
 
-
 .btn-contact:hover {
-    background-color: var(--color-secondary-light);
+  background-color: var(--color-secondary-light);
 }
 
 .form-control:focus {
-    border-color: var(--color-primary);
-    box-shadow: 0 0 0 0.25rem var(--color-primary-opacity);
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 0.25rem var(--color-primary-opacity);
+}
+
+/* FOOTER */
+.footer {
+  background-color: var(--color-primary-dark);
+}
+
+.fa-brands:hover {
+  color: var(--color-primary-light);
+}
+
+.copyright {
+  background-color: var(--color-secondary);
 }
