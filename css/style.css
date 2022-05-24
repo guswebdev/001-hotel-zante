@@ -112,3 +112,8 @@ a {
 .features-rooms .features-bg:nth-child(3){
     background-image: url(../assets/feature-3.jpg)
 }
+
+/* ABOUT */
+.about {
+    background-color: var(--color-primary);
+}
