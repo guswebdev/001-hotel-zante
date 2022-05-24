@@ -3,6 +3,7 @@
     --color-primary-light: #fd9e38;
     --color-secondary: #4d4d4d;
     --color-secondary-light: #6b6b6b;
+    --color-secondary-opacity: #4d4d4d80;
 }
 
 body {
@@ -117,3 +118,23 @@ a {
 .about {
     background-color: var(--color-primary);
 }
+
+/* TESTIMONIALS */
+.testimonials {
+    min-height: 100vh;
+    background: url(../assets/testimonials.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.testimonial-card {
+    background-color: var(--color-secondary-opacity);
+}
+
+.img-testimonials {
+    width: 100px;
+    height: 100px;
+}
+
