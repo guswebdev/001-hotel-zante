@@ -93,3 +93,22 @@ a {
 .btn-reservation:hover {
     background-color: var(--color-secondary-light);
 }
+
+/* FEATURES */
+.features-bg{
+    
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.features-rooms .features-bg:nth-child(1){
+    background-image: url(../assets/feature-1.jpg)
+}
+.features-rooms .features-bg:nth-child(2){
+    background-image: url(../assets/feature-2.jpg)
+}
+.features-rooms .features-bg:nth-child(3){
+    background-image: url(../assets/feature-3.jpg)
+}
